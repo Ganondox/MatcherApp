@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1 " fx:controller="sample.Questions11To20Controller">
+    <children>
+
+        <Label layoutX="40.0" layoutY="20.0" text="Indicate your interest level for each activity below." />
+        <Label layoutX="275.0" layoutY="60.0" text="Strongly Dislike" />
+        <Label layoutX="390.0" layoutY="60.0" text="Dislike" />
+        <Label layoutX="475.0" layoutY="60.0" text="Unsure" />
+        <Label layoutX="575.0" layoutY="60.0" text="Like" />
+        <Label layoutX="645.0" layoutY="60.0" text="Strongly Like" />
+
+
+        <RadioButton layoutX="310.0" layoutY="100.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="DevelopMedicine" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="90.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Develop a new medicine" />
+        <RadioButton layoutX="400.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$DevelopMedicine" userData="1" />
+        <RadioButton layoutX="490.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$DevelopMedicine" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$DevelopMedicine" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$DevelopMedicine" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="150.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="WaterPollution" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="140.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Study ways to reduce water pollution" />
+        <RadioButton layoutX="400.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$WaterPollution" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$WaterPollution" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$WaterPollution" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$WaterPollution" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="200.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="ChemicalExperiments" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="190.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Conduct chemical experiments" />
+        <RadioButton layoutX="400.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$ChemicalExperiments" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$ChemicalExperiments" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$ChemicalExperiments" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$ChemicalExperiments" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="250.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="StudyPlanets" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="240.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Study the movement of planets" />
+        <RadioButton layoutX="400.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$StudyPlanets" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$StudyPlanets" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$StudyPlanets" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$StudyPlanets" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="300.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="UseMicroscope" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="290.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Examine blood samples using a microscope" />
+        <RadioButton layoutX="400.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$UseMicroscope" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$UseMicroscope" userData="2" />
+        <RadioButton layoutX="580.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$UseMicroscope" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$UseMicroscope" userData="4" />
+
+        <RadioButton layoutX="310.0" layoutY="350.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="InvestigateFires" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="340.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Investigate the cause of a fire" />
+        <RadioButton layoutX="400.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$InvestigateFires" userData="1" />
+        <RadioButton layoutX="490.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$InvestigateFires" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$InvestigateFires" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$InvestigateFires" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="400.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="PredictWeather" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="390.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Develop a way to better predict the weather" />
+        <RadioButton layoutX="400.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$PredictWeather" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$PredictWeather" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$PredictWeather" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$PredictWeather" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="450.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="BiologyLab" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="440.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Work in a biology lab" />
+        <RadioButton layoutX="400.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$BiologyLab" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$BiologyLab" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$BiologyLab" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$BiologyLab" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="500.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="ReinventSugar" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="490.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Invent a replacement for sugar" />
+        <RadioButton layoutX="400.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$ReinventSugar" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$ReinventSugar" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$ReinventSugar" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$ReinventSugar" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="550.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="IdentifyDiseases" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="540.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Do laboratory tests to identify diseases" />
+        <RadioButton layoutX="400.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$IdentifyDiseases" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$IdentifyDiseases" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$IdentifyDiseases" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$IdentifyDiseases" userData="4"/>
+
+        <Button layoutX="350.0" layoutY="650.0" mnemonicParsing="false" onMouseClicked="#toQ21to30" fx:id="q11to20Button" text="Next" />
+    </children>
+</AnchorPane>

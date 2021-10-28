@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Questions31To40Controller">
+    <children>
+
+        <Label layoutX="40.0" layoutY="20.0" text="Indicate your interest level for each activity below." />
+        <Label layoutX="275.0" layoutY="60.0" text="Strongly Dislike" />
+        <Label layoutX="390.0" layoutY="60.0" text="Dislike" />
+        <Label layoutX="475.0" layoutY="60.0" text="Unsure" />
+        <Label layoutX="575.0" layoutY="60.0" text="Like" />
+        <Label layoutX="645.0" layoutY="60.0" text="Strongly Like" />
+
+
+        <RadioButton layoutX="310.0" layoutY="100.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="TeachExercise" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="90.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Teach an individual an exercise routine" />
+        <RadioButton layoutX="400.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$TeachExercise" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$TeachExercise" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$TeachExercise" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$TeachExercise" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="150.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="PersonalProblems" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="140.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Help people with personal or emotional problems" />
+        <RadioButton layoutX="400.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PersonalProblems" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PersonalProblems" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PersonalProblems" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PersonalProblems" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="200.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="CareerGuidance" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="190.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Give career guidance to people" />
+        <RadioButton layoutX="400.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$CareerGuidance" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$CareerGuidance" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$CareerGuidance" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$CareerGuidance" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="250.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="RehabilitationTherapy" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="240.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Perform rehabilitation therapy" />
+        <RadioButton layoutX="400.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RehabilitationTherapy" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RehabilitationTherapy" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RehabilitationTherapy" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RehabilitationTherapy" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="300.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="VolunteerWork" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="290.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Do volunteer work at a non-profit organization" />
+        <RadioButton layoutX="400.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$VolunteerWork" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$VolunteerWork" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$VolunteerWork" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$VolunteerWork" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="350.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="CoachChildren" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="340.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Teach children how to play sports" />
+        <RadioButton layoutX="400.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$CoachChildren" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$CoachChildren" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$CoachChildren" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$CoachChildren" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="400.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="SignLanguage" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="390.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Teach sign language to people who are deaf or hard of hearing" />
+        <RadioButton layoutX="400.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$SignLanguage" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$SignLanguage" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$SignLanguage" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$SignLanguage" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="450.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="GroupTherapy" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="440.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Help conduct a group therapy session" />
+        <RadioButton layoutX="400.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$GroupTherapy" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$GroupTherapy" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$GroupTherapy" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$GroupTherapy" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="500.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Daycare" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="490.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Take care of children at a day-care center" />
+        <RadioButton layoutX="400.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Daycare" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Daycare" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Daycare" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Daycare" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="550.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="TeachHighschool" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="540.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Teacah a high-school class" />
+        <RadioButton layoutX="400.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$TeachHighschool" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$TeachHighschool" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$TeachHighschool" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$TeachHighschool" userData="4"/>
+
+        <Button layoutX="350.0" layoutY="650.0" mnemonicParsing="false" onMouseClicked="#toQ41to50" fx:id="q31to40Button"  text="Next" />
+    </children>
+</AnchorPane>

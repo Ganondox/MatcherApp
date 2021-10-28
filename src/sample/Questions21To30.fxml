@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Questions21To30Controller" >
+    <children>
+
+        <Label layoutX="40.0" layoutY="20.0" text="Indicate your interest level for each activity below." />
+        <Label layoutX="275.0" layoutY="60.0" text="Strongly Dislike" />
+        <Label layoutX="390.0" layoutY="60.0" text="Dislike" />
+        <Label layoutX="475.0" layoutY="60.0" text="Unsure" />
+        <Label layoutX="575.0" layoutY="60.0" text="Like" />
+        <Label layoutX="645.0" layoutY="60.0" text="Strongly Like" />
+
+
+        <RadioButton layoutX="310.0" layoutY="100.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="WriteBooks" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="90.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Write books or plays" />
+        <RadioButton layoutX="400.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$WriteBooks"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$WriteBooks"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$WriteBooks"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$WriteBooks"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="150.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="PlayInstrument" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="140.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Play a musical instrument" />
+        <RadioButton layoutX="400.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PlayInstrument"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PlayInstrument"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PlayInstrument"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$PlayInstrument"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="200.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="MakeMusic" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="190.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Compose or arrange music" />
+        <RadioButton layoutX="400.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$MakeMusic"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$MakeMusic"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$MakeMusic"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$MakeMusic"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="250.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="DrawPictures" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="240.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Draw pictures" />
+        <RadioButton layoutX="400.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$DrawPictures"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$DrawPictures"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$DrawPictures"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$DrawPictures"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="300.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="MovieEffects" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="290.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Create special effects for movies" />
+        <RadioButton layoutX="400.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$MovieEffects"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$MovieEffects"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$MovieEffects"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$MovieEffects"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="350.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="PaintSets" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="340.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Paint sets for plays" />
+        <RadioButton layoutX="400.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$PaintSets"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$PaintSets"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$PaintSets"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$PaintSets"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="400.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="WriteScripts" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="390.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Write scripts for movies or television shows" />
+        <RadioButton layoutX="400.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$WriteScripts"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$WriteScripts"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$WriteScripts"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$WriteScripts"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="450.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="JazzDance" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="440.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Perform jazz or tap dance" />
+        <RadioButton layoutX="400.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$JazzDance"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$JazzDance"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$JazzDance"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$JazzDance"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="500.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Sing" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="490.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Sing in a band" />
+        <RadioButton layoutX="400.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Sing"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Sing"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Sing"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$Sing"  userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="550.0" mnemonicParsing="false"  userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="EditMovies" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="540.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Edit movies" />
+        <RadioButton layoutX="400.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$EditMovies"  userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$EditMovies"  userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$EditMovies"  userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$EditMovies"  userData="4"/>
+
+        <Button layoutX="350.0" layoutY="650.0" mnemonicParsing="false" onMouseClicked="#toQ31to40" fx:id="q21to30Button" text="Next" />
+    </children>
+</AnchorPane>

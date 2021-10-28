@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Questions91To100Controller">
+    <children>
+
+        <Label layoutX="40.0" layoutY="20.0" text="Select your skill level." />
+        <Label layoutX="295.0" layoutY="60.0" text="Beginner" />
+        <Label layoutX="392.0" layoutY="60.0" text="Basic" />
+        <Label layoutX="480.0" layoutY="60.0" text="Skilled" />
+        <Label layoutX="562.0" layoutY="60.0" text="Advanced" />
+        <Label layoutX="660.0" layoutY="60.0" text="Expert" />
+
+
+        <RadioButton layoutX="310.0" layoutY="100.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Science" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="90.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well can you use scientific rules and methods to solve problems?" />
+        <RadioButton layoutX="400.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Science" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Science" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Science" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Science" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="150.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="SociologyAndAnthropology" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="140.0" prefHeight="60.0" prefWidth="225.0" wrapText="true" text="How well do you know the theories of group behavior, societal trends and influences, and human culture?" />
+        <RadioButton layoutX="400.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$SociologyAndAnthropology" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$SociologyAndAnthropology" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$SociologyAndAnthropology" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$SociologyAndAnthropology" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="210.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Speaking" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="200.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well do you convey information when you speak?" />
+        <RadioButton layoutX="400.0" layoutY="210.0" mnemonicParsing="false" toggleGroup="$Speaking" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="210.0" mnemonicParsing="false" toggleGroup="$Speaking" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="210.0" mnemonicParsing="false" toggleGroup="$Speaking" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="210.0" mnemonicParsing="false" toggleGroup="$Speaking" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="260.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="SystemsAnalysis" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="250.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well can you analyze systems?" />
+        <RadioButton layoutX="400.0" layoutY="260.0" mnemonicParsing="false" toggleGroup="$SystemsAnalysis" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="260.0" mnemonicParsing="false" toggleGroup="$SystemsAnalysis" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="260.0" mnemonicParsing="false" toggleGroup="$SystemsAnalysis" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="260.0" mnemonicParsing="false" toggleGroup="$SystemsAnalysis" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="310.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="TeachingAndCourseDesign" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="300.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well do you know the principles and methods of instruction?" />
+        <RadioButton layoutX="400.0" layoutY="310.0" mnemonicParsing="false" toggleGroup="$TeachingAndCourseDesign" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="310.0" mnemonicParsing="false" toggleGroup="$TeachingAndCourseDesign" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="310.0" mnemonicParsing="false" toggleGroup="$TeachingAndCourseDesign" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="310.0" mnemonicParsing="false" toggleGroup="$TeachingAndCourseDesign" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="360.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Telecommunications" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="350.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well do you understand telecom systems?" />
+        <RadioButton layoutX="400.0" layoutY="360.0" mnemonicParsing="false" toggleGroup="$Telecommunications" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="360.0" mnemonicParsing="false" toggleGroup="$Telecommunications" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="360.0" mnemonicParsing="false" toggleGroup="$Telecommunications" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="360.0" mnemonicParsing="false" toggleGroup="$Telecommunications" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="410.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="TherapyAndCounseling" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="400.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well do you know the principles and methods used in counseling?" />
+        <RadioButton layoutX="400.0" layoutY="410.0" mnemonicParsing="false" toggleGroup="$TherapyAndCounseling" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="410.0" mnemonicParsing="false" toggleGroup="$TherapyAndCounseling" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="410.0" mnemonicParsing="false" toggleGroup="$TherapyAndCounseling" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="410.0" mnemonicParsing="false" toggleGroup="$TherapyAndCounseling" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="460.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="TimeManagement" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="450.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well do you manage your and others' time?" />
+        <RadioButton layoutX="400.0" layoutY="460.0" mnemonicParsing="false" toggleGroup="$TimeManagement" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="460.0" mnemonicParsing="false" toggleGroup="$TimeManagement" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="460.0" mnemonicParsing="false" toggleGroup="$TimeManagement" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="460.0" mnemonicParsing="false" toggleGroup="$TimeManagement" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="510.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Troubleshooting" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="500.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="How well can you identify and fix problems in machines or technology?" />
+        <RadioButton layoutX="400.0" layoutY="510.0" mnemonicParsing="false" toggleGroup="$Troubleshooting" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="510.0" mnemonicParsing="false" toggleGroup="$Troubleshooting" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="510.0" mnemonicParsing="false" toggleGroup="$Troubleshooting" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="510.0" mnemonicParsing="false" toggleGroup="$Troubleshooting" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="560.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Writing" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="550.0" prefHeight="60.0" prefWidth="225.0" wrapText="true" text="How well does your writing effectively communicate to an audience's particular need?" />
+        <RadioButton layoutX="400.0" layoutY="560.0" mnemonicParsing="false" toggleGroup="$Writing" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="560.0" mnemonicParsing="false" toggleGroup="$Writing" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="560.0" mnemonicParsing="false" toggleGroup="$Writing" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="560.0" mnemonicParsing="false" toggleGroup="$Writing" userData="4"/>
+
+        <Button layoutX="350.0" layoutY="650.0" mnemonicParsing="false" onMouseClicked="#toBase" fx:id="q91to100Button" text="Next" />
+    </children>
+</AnchorPane>

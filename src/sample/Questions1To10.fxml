@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Questions1To10Controller">
+    <children>
+
+        <Label layoutX="40.0" layoutY="20.0" text="Indicate your interest level for each activity below." />
+        <Label layoutX="275.0" layoutY="60.0" text="Strongly Dislike" />
+        <Label layoutX="390.0" layoutY="60.0" text="Dislike" />
+        <Label layoutX="475.0" layoutY="60.0" text="Unsure" />
+        <Label layoutX="575.0" layoutY="60.0" text="Like" />
+        <Label layoutX="645.0" layoutY="60.0" text="Strongly Like" />
+
+
+        <RadioButton id="cabinetsHead" layoutX="310.0" layoutY="100.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Cabinets" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="90.0" prefHeight="40.0" prefWidth="225.0" text="Build kitchen cabinets" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Cabinets" userData="1" />
+        <RadioButton layoutX="490.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Cabinets" userData="2" />
+        <RadioButton layoutX="580.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Cabinets" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$Cabinets" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="150.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Bricks" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="140.0" prefHeight="40.0" prefWidth="225.0" text="Lay brick or tile" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$Bricks" userData="1" />
+        <RadioButton layoutX="490.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$Bricks" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$Bricks" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$Bricks" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="200.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="RepairAppliances" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="190.0" prefHeight="40.0" prefWidth="225.0" text="Repair household appliances" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$RepairAppliances" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$RepairAppliances" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$RepairAppliances" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$RepairAppliances" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="250.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="RaiseFish" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="240.0" prefHeight="40.0" prefWidth="225.0" text="Raise fish in a fish hatchery" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RaiseFish" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RaiseFish" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RaiseFish" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$RaiseFish" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="300.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="AssembleElectronics" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="290.0" prefHeight="40.0" prefWidth="225.0" text="Assemble electronic parts" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$AssembleElectronics" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$AssembleElectronics" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$AssembleElectronics" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$AssembleElectronics" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="350.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="DriveTruck" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="340.0" prefHeight="40.0" prefWidth="225.0" text="Drive a truck to deliver packages to offices and homes" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$DriveTruck" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$DriveTruck" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$DriveTruck" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$DriveTruck" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="400.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="TestParts" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="390.0" prefHeight="40.0" prefWidth="225.0" text="Test the quality of parts before shipment" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$TestParts" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$TestParts" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$TestParts" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$TestParts" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="450.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="Locks" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="440.0" prefHeight="40.0" prefWidth="225.0" text="Repair and install locks" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$Locks" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$Locks" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$Locks" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$Locks" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="500.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="OperateMachines" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="490.0" prefHeight="40.0" prefWidth="225.0" text="Set up and operate machines to make products" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$OperateMachines" userData="1" />
+        <RadioButton layoutX="490.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$OperateMachines" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$OperateMachines" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$OperateMachines" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="550.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="FightFires" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="540.0" prefHeight="40.0" prefWidth="225.0" text="Put out forest fires" wrapText="true" />
+        <RadioButton layoutX="400.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$FightFires" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$FightFires" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$FightFires" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$FightFires" userData="4"/>
+
+
+        <Button layoutX="350.0" layoutY="650.0" mnemonicParsing="false" onMouseClicked="#toQ11to20" fx:id="q1to10Button" text="Next" />
+    </children>
+</AnchorPane>

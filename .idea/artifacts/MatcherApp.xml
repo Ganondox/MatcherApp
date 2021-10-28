@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MatcherApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/MatcherApp</output-path>
+    <root id="root">
+      <element id="archive" name="MatcherApp.jar">
+        <element id="module-output" name="MatcherApp" />
+      </element>
+    </root>
+  </artifact>
+</component>

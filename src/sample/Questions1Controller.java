@@ -12,8 +12,8 @@ import javafx.stage.Stage;
 
 public class Questions1Controller {
 
-    @FXML
-    private CheckBox q1CheckBox;
+    //@FXML
+    //private CheckBox q1CheckBox;
 
     @FXML
     private TextArea q1Description;
@@ -28,14 +28,15 @@ public class Questions1Controller {
 
         //update working user
         Main.client.workingUser.description = q1Description.getText();
-        Main.client.workingUser.isEmployer = q1CheckBox.isSelected();
+       // Main.client.workingUser.isEmployer = q1CheckBox.isSelected();
 
 
         System.out.println("Change");
         //change scene
         q1Button.getScene().getWindow().hide();
         FXMLLoader loader = new FXMLLoader();
-        if(q1CheckBox.isSelected()) loader.setLocation(getClass().getResource("Questions2A.fxml")); else loader.setLocation(getClass().getResource("Questions2B.fxml"));
+        //if(q1CheckBox.isSelected()) loader.setLocation(getClass().getResource("Questions2A.fxml")); else loader.setLocation(getClass().getResource("Questions2B.fxml"));
+        loader.setLocation(getClass().getResource("Questions1To10.fxml"));
         try {
             loader.load();
         } catch (Exception e){
@@ -44,7 +45,7 @@ public class Questions1Controller {
 
         Parent root = loader.getRoot();
         Stage stage = new Stage();
-        stage.setScene(new Scene(root, 500, 275));
+        stage.setScene(new Scene(root, 1000, 800));
         stage.show();
 
     }

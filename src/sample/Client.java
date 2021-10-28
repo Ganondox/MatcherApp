@@ -12,4 +12,22 @@ public class Client {
     HttpClient client = null;
     UserRecord workingUser = null;
 
+
 }
+
+/*
+    public getIndex(scheme component) throws Exception{
+        int index = 0;
+        switch (component){
+            case HOURS:
+                index++;
+                break;
+            default:
+                throw new Exception();
+        }
+    }
+}
+
+enum scheme{HOURS};
+
+*/

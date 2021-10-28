@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Questions41To50Controller">
+    <children>
+
+        <Label layoutX="40.0" layoutY="20.0" text="Indicate your interest level for each activity below." />
+        <Label layoutX="275.0" layoutY="60.0" text="Strongly Dislike" />
+        <Label layoutX="390.0" layoutY="60.0" text="Dislike" />
+        <Label layoutX="475.0" layoutY="60.0" text="Unsure" />
+        <Label layoutX="575.0" layoutY="60.0" text="Like" />
+        <Label layoutX="645.0" layoutY="60.0" text="Strongly Like" />
+
+
+        <RadioButton layoutX="310.0" layoutY="100.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="StocksBonds" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="90.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Buy and sell stocks and bonds" />
+        <RadioButton layoutX="400.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$StocksBonds" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$StocksBonds" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$StocksBonds" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="100.0" mnemonicParsing="false" toggleGroup="$StocksBonds" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="150.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="ManageRetail" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="140.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Manage a retail store" />
+        <RadioButton layoutX="400.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$ManageRetail" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$ManageRetail" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$ManageRetail" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="150.0" mnemonicParsing="false" toggleGroup="$ManageRetail" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="200.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="OperateSalon" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="190.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Operate a beauty salon or barber shop" />
+        <RadioButton layoutX="400.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$OperateSalon" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$OperateSalon" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$OperateSalon" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="200.0" mnemonicParsing="false" toggleGroup="$OperateSalon" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="250.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="ManageDepartment" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="240.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Manage a department within a large company" />
+        <RadioButton layoutX="400.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$ManageDepartment" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$ManageDepartment" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$ManageDepartment" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="250.0" mnemonicParsing="false" toggleGroup="$ManageDepartment" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="300.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="StartBusiness" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="290.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Start your own business" />
+        <RadioButton layoutX="400.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$StartBusiness" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$StartBusiness" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$StartBusiness" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="300.0" mnemonicParsing="false" toggleGroup="$StartBusiness" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="350.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="NegotiateContracts" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="340.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Negotiate business contracts" />
+        <RadioButton layoutX="400.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$NegotiateContracts" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$NegotiateContracts" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$NegotiateContracts" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="350.0" mnemonicParsing="false" toggleGroup="$NegotiateContracts" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="400.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="RepresentLawsuit" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="390.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Represent a client in a lawsuit" />
+        <RadioButton layoutX="400.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$RepresentLawsuit" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$RepresentLawsuit" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$RepresentLawsuit" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="400.0" mnemonicParsing="false" toggleGroup="$RepresentLawsuit" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="450.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="MarketClothing" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="440.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Market a new line of clothing" />
+        <RadioButton layoutX="400.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$MarketClothing" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$MarketClothing" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$MarketClothing" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="450.0" mnemonicParsing="false" toggleGroup="$MarketClothing" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="500.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="SellMerchandise" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="490.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Sell merchandise at a department store" />
+        <RadioButton layoutX="400.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$SellMerchandise" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$SellMerchandise" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$SellMerchandise" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="500.0" mnemonicParsing="false" toggleGroup="$SellMerchandise" userData="4"/>
+
+        <RadioButton layoutX="310.0" layoutY="550.0" mnemonicParsing="false" userData="0">
+            <toggleGroup>
+                <ToggleGroup fx:id="ManageStore" />
+            </toggleGroup>
+        </RadioButton>
+        <Label layoutX="40.0" layoutY="540.0" prefHeight="40.0" prefWidth="225.0" wrapText="true" text="Manage a clothing store" />
+        <RadioButton layoutX="400.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$ManageStore" userData="1"/>
+        <RadioButton layoutX="490.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$ManageStore" userData="2"/>
+        <RadioButton layoutX="580.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$ManageStore" userData="3"/>
+        <RadioButton layoutX="670.0" layoutY="550.0" mnemonicParsing="false" toggleGroup="$ManageStore" userData="4"/>
+
+        <Button layoutX="350.0" layoutY="650.0" mnemonicParsing="false" onMouseClicked="#toQ51to60" fx:id="q41to50Button" text="Next" />
+    </children>
+</AnchorPane>
